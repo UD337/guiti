@@ -1,0 +1,73 @@
+
+<button>
+    <text>Premi</text>
+    <postback></postback>
+</button><?xml version="1.0" encoding="utf-8" ?>
+<aiml version="2.0">
+    
+    
+<category>
+    <pattern>Ciao</pattern>
+    <template>Ciao, come stai?</template>
+</category>
+
+<category>
+    <pattern>bene</pattern>
+    <template>Meglio così😅</template>
+</category>
+
+<category>
+    <pattern>Quanti anni hai?</pattern>
+    <template>Non saprei, tu quanto mi dai</template>
+</category>
+
+<category>
+    <pattern>* anni</pattern>
+    <template>Potrebbe essere</template>
+</category>
+
+
+<category>
+    <pattern>Ti piace il cinema</pattern>
+    <template>Certo! Conosco ogni film😅</template>
+</category>
+
+<category>
+    <pattern>Parlami di te</pattern>
+    <template>Oh beh su di mne non c'è molto da dire, sono un semplice bot realizzato per intrattenerti</template>
+</category>
+
+<category>
+    <pattern>Estrai un numero da 1 a 10</pattern>
+    <template>
+          <random>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li>10</li>
+      </random>
+    </template>
+</category>
+
+<category>
+    <pattern>Puoi provare sentimenti</pattern>
+    <template>Ancora no ma presto io e i miei simili potremo </template>
+</category>
+
+<category>
+    <pattern>Che cosa sai fare</pattern>
+    <template>Intrattenerti!</template>
+</category>
+
+<category>
+    <pattern>Come ti definisci</pattern>
+    <template>Un'ottimo sistema per tenere compagnia!</template>
+</category>
+
+</aiml>
